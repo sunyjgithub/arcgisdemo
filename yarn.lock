@@ -559,6 +559,11 @@
   optionalDependencies:
     prettier "^1.18.2 || ^2.0.0"
 
+"@vue/devtools-api@^6.0.0":
+  version "6.1.4"
+  resolved "http://10.10.30.183:8081/repository/npm-repo-group/@vue/devtools-api/-/devtools-api-6.1.4.tgz#b4aec2f4b4599e11ba774a50c67fa378c9824e53"
+  integrity sha512-IiA0SvDrJEgXvVxjNkHPFfDx6SXw0b/TUkqMcDZWNg9fnCAHbTpoo59YfJ9QLFkwa3raau5vSlRVzMSLDnfdtQ==
+
 "@vue/eslint-config-typescript@^7.0.0":
   version "7.0.0"
   resolved "https://registry.npmmirror.com/@vue/eslint-config-typescript/-/eslint-config-typescript-7.0.0.tgz#220c70c2edf7a253e739298525f4d401b8ef0038"
@@ -2789,6 +2794,11 @@ esrecurse@^4.1.0, esrecurse@^4.3.0:
   integrity sha512-KmfKL3b6G+RXvP8N1vr3Tq1kL/oCFgn2NYXEtqP8/L3pKapUA4G8cFVaoF3SU323CD4XypR/ffioHmkti6/Tag==
   dependencies:
     estraverse "^5.2.0"
+
+esri-loader@^3.5.0:
+  version "3.5.0"
+  resolved "http://10.10.30.183:8081/repository/npm-repo-group/esri-loader/-/esri-loader-3.5.0.tgz#f536cbaaf676d54f6b05a706e51ececd9303ce05"
+  integrity sha512-rIXyT51x/co86DPORKBMMldJrdLjghDepJ3WjDVTr2yZXBbghMbGgNA8yIQ9Pd/Gw6/fMgF9YHZU+wjRHRCDoA==
 
 estraverse@^4.1.1:
   version "4.3.0"
@@ -7558,6 +7568,13 @@ vue-loader@^15.9.2:
     loader-utils "^1.1.0"
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
+
+vue-router@^4.0.15:
+  version "4.0.15"
+  resolved "http://10.10.30.183:8081/repository/npm-repo-group/vue-router/-/vue-router-4.0.15.tgz#b4a0661efe197f8c724e0f233308f8776e2c3667"
+  integrity sha512-xa+pIN9ZqORdIW1MkN2+d9Ui2pCM1b/UMgwYUCZOiFYHAvz/slKKBDha8DLrh5aCG/RibtrpyhKjKOZ85tYyWg==
+  dependencies:
+    "@vue/devtools-api" "^6.0.0"
 
 vue-style-loader@^4.1.0, vue-style-loader@^4.1.2:
   version "4.1.3"

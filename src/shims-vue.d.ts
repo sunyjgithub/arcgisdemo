@@ -4,3 +4,11 @@ declare module '*.vue' {
   const component: DefineComponent<{}, {}, any>
   export default component
 }
+
+declare global {
+  interface Window {
+    __POWERED_BY_QIANKUN__: boolean,
+    test1111: ()=>void
+  }
+}
+export {};
